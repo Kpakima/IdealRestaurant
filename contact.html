@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Welcome to Ideal Restaurant where we prepare delicius meal that meet our customer desire."
+    />
+    <title>Home | Ideal Restaurant</title>
+    <link rel="stylesheet" href="./Css/main.css" />
+    <link rel="stylesheet" href="./Css/elements.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="./Images/favicon.ico" />
+  </head>
+  <body>
+    <header class="container">
+      <header class="header__container">
+        <nav class="logo__container">
+          <a href="index.html">
+            <img
+              src="./Images/logo.svg"
+              alt="This is the site logo"
+              class="logo"
+            />
+          </a>
+        </nav>
+
+        <nav class="nav__container">
+          <ul class="nav__lists">
+            <li><a href="index.html" class="link">Home</a></li>
+            <li><a href="menu.html" class="link">Menu</a></li>
+            <li><a href="about.html" class="link">About</a></li>
+            <li><a href="booking.html" class="link">Booking</a></li>
+          </ul>
+          <ul>
+            <li><a href="contact.html" class="contact__btn">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+    </header>
+    <!--the header section end here-->
+
+    <section class="container">
+      <section class="section">
+        <section class="booking__info">
+          <h1>Book Table</h1>
+        </section>
+        <section class="bookingform__container">
+          <form
+            action="example.php"
+            method="post"
+            class="booking__form__container"
+          >
+            <article class="firstname__container">
+              <label for="firstname">First Name</label><br />
+              <input
+                type="text"
+                name="username"
+                placeholder="enter first name"
+                required
+              />
+            </article>
+            <article class="lastname">
+              <label for="lastname">Last Name</label><br />
+              <input
+                type="text"
+                name="username"
+                placeholder="enter last name"
+                required
+              />
+            </article>
+            <article>
+              <label for="email">Email</label><br />
+              <input
+                type="email"
+                name="useremail"
+                placeholder="enter email address"
+                required
+              />
+            </article>
+            <article class="date">
+              <label for="date">Date</label><br />
+              <input type="date" name="today's date" />
+            </article>
+            <article class="note">
+              <label for="note">Note</label><br />
+              <textarea name="usernote" id="note-box"></textarea>
+            </article>
+            <article class="booktable-btn-container">
+              <input
+                type="submit"
+                name="book"
+                value="Book Table"
+                id="booktable-btn"
+              />
+            </article>
+          </form>
+        </section>
+      </section>
+    </section>
+
+    <footer>
+      <section class="container">
+        <section class="section">
+          <footer class="footer__container">
+            <article class="article__one">
+              <img src="./Images/logo.svg" alt="This is the site logo" />
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Maxime.
+              </p>
+              <h3>Follow us</h3>
+              <p>
+                <a href="index.html">
+                  <img
+                    src="./Images/facebook.svg"
+                    alt="facebook icon"
+                    class="facebook__icon"
+                  />
+                </a>
+              </p>
+            </article>
+            <article class="article__two">
+              <h3>Links</h3>
+              <ol>
+                <li><a href="index.html" class="footer__link">Home</a></li>
+                <li><a href="menu.html" class="footer__link">Menu</a></li>
+                <li><a href="about.html" class="footer__link">About</a></li>
+                <li><a href="booking.html" class="footer__link">Booking</a></li>
+              </ol>
+            </article>
+            <article class="article__three">
+              <h3>Support</h3>
+              <ol>
+                <li>Contact</li>
+                <li>Support Center</li>
+                <li>Feedback</li>
+              </ol>
+            </article>
+            <article class="article__four">
+              <ol>
+                <li>+231775932702</li>
+                <li>samueljoykpakima@gmail.com</li>
+                <li>Opposite Paynesville City Hall.</li>
+              </ol>
+            </article>
+          </footer>
+        </section>
+      </section>
+      <p class="copyright">copyright&copy;samueljoykpakima2023</p>
+    </footer>
+  </body>
+</html>
